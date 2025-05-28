@@ -26,4 +26,4 @@ RUN chmod +x streamer.sh
 RUN mkdir -p videos
 
 # Default command to start the streamer with RTMP URL
-CMD ["bash", "streamer.sh", "rtmp://a.rtmp.youtube.com/live2/arcx-rrp8-z168-1193-16xb"]
+CMD ["bash", "streamer.sh"]
